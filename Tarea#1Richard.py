@@ -49,9 +49,9 @@ print(esCapicua([42, 12, 90, 90, 12, 42]))"""
 
 #Ejercicio #3
 
-def diferenciaListas(ListaA,ListaB):
+"""def diferenciaListas(ListaA,ListaB):
     
                 
                 
 
-diferenciaListas([40, 10, 22, 12, 33, 33, 33],[41, 22, 31, 15, 13, 12, 33, 19])
+diferenciaListas([40, 10, 22, 12, 33, 33, 33],[41, 22, 31, 15, 13, 12, 33, 19])"""
