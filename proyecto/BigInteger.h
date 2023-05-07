@@ -33,11 +33,8 @@ public:
 	bool operator <= (BigInteger a);
 
 /*
-	lista sumarListaValores(BigInteger a); 
-	lista MultiplicarListaValores(BigInteger a);
-
-	lista sumarListaValores(lista b); 
-	lista MultiplicarListaValores(lista b);
+	string sumarListaValores(lista b); 
+	string MultiplicarListaValores(lista b);
 	*/
 };
 
