@@ -22,18 +22,19 @@ public:
 	void pow(BigInteger numero);
 	string toString();
 
-	BigInteger operator + (BigInteger);
-	BigInteger operator - (BigInteger);
-	BigInteger operator * (BigInteger);
-	BigInteger operator / (BigInteger);
-	BigInteger operator % (BigInteger);
-	bool operator == (BigInteger);
-	bool operator < (BigInteger);
-	bool operator <= (BigInteger);
+	BigInteger operator + (BigInteger a);
+	BigInteger operator - (BigInteger a);
+	BigInteger operator * (BigInteger a);
+	BigInteger operator / (BigInteger a);
+	BigInteger operator % (BigInteger a);
+
+	bool operator == (BigInteger a);
+	bool operator < (BigInteger a);
+	bool operator <= (BigInteger a);
 
 /*
-	lista sumarListaValores(BigInteger); 
-	lista MultiplicarListaValores(BigInteger);
+	lista sumarListaValores(BigInteger a); 
+	lista MultiplicarListaValores(BigInteger a);
 
 	lista sumarListaValores(lista b); 
 	lista MultiplicarListaValores(lista b);
