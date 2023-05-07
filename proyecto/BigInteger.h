@@ -31,8 +31,13 @@ public:
 	bool operator < (BigInteger);
 	bool operator <= (BigInteger);
 
-	sumarListaValores();
-	MultiplicarListaValores();
+/*
+	lista sumarListaValores(BigInteger); 
+	lista MultiplicarListaValores(BigInteger);
+
+	lista sumarListaValores(lista b); 
+	lista MultiplicarListaValores(lista b);
+	*/
 };
 
 #endif
