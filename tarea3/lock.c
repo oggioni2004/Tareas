@@ -10,15 +10,15 @@ int main(){
             scanf("%d",&nCombinacion[i]);
         }
         if (nCombinacion[0]-puntoPartida == 30){
-            grados=(360*3)+(90*3);
+            grados=(1080)+(270);
             printf("%d\n",grados);
         }
         else if (nCombinacion[0]-puntoPartida == 20){
-            grados=(360*3)+(180*3);
+            grados=(1080)+(540);
             printf("%d\n",grados);
         }
         else if (nCombinacion[0]-puntoPartida == 10){
-            grados=(360*3)+(270*3);
+            grados=(1080)+(810);
             printf("%d\n",grados);
         }
         else if (nCombinacion[0]-nCombinacion[1]-nCombinacion[2]-nCombinacion[3] == 0){

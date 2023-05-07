@@ -22,10 +22,10 @@ int main(){
         }
     }   
     if (verificar == n-2){
-        printf("Jolly");
+    printf("Jolly\n");
     }
     else{
-        printf("Not jolly");
+        printf("Not jolly\n");
     }
     return 0;
 }
